@@ -10,27 +10,31 @@
     {
         alert("You get up and start to grap some branches off a fallen palm tree. After an hour you have a shelter built and will protect you from the rain.");
         var choice2 = prompt("Now that you have a shelter what do you do for the rest of the day? Do you get water or look for food? (You see some dark clouds in the distance)");
-        if (choice2 === "water") {
+        if (choice2 === "water")
+            {
             alert("You look for a container to hold the water and a fliter to filter the water. Luckily there is a suit case that has a water bottle and a filter for water" +
                 "you spend the rest of the day getting water.");
             alert("night time");
-        }
+            }
         else if (choice2 === "food") {
             alert("You look around and find a bag. The bag has some food for you to eat. You spend the rest of the day getting food. You also find a container.");
             alert("night time")
-        }
-        else if (start === "water") { //this is the 2nd chioic the player can make (2) ---◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊---
+            }
+        else if (start === "water")
+            { //this is the 2nd chioic the player can make (2) ---◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊---
             alert("You look for a container to hold the water and a fliter to filter the water. Luckily there is a suit case that has a water bottle and a filter for water");
             var choice3 = prompt("Now that you have water you need to do something quick before night falls. Do you look for food or build a shelter?");
-            if (choice3 === "food") {
+            if (choice3 === "food")
+            {
                 alert("You look around and find a bag. The bag has some food for you to eat. You spend the rest of the day getting food. You also find a container.");
                 alert("night time");
             }
-            else if (choise3 === "shelter") {
+            else if (choise3 === "shelter")
+            {
                 alert("You get up and start to grap some branches off a fallen palm tree. After an hour you have a shelter built and will protect you from the rain.");
                 alert("night time");
             }
-        }
+            }
     }
 
 
