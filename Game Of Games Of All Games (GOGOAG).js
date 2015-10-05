@@ -15,12 +15,22 @@
             alert("You look for a container to hold the water and a fliter to filter the water. Luckily there is a suit case that has a water bottle and a filter for water" +
                 "you spend the rest of the day getting water.");
             alert("night time");
-
+        }
+        var nightShelterWater = prompt("The clouds rolled over and it started to rain. Since you already have water you can't get anymore. You hear a something in the bush do you check it out or stay put? (check/stay)")
+        if (nightShelterWater === "check") {
+            alert('You you go and check it out. What ever it was big and fast. You get scared and go back to your shelter.')
+        }
+        else if (nightShelterWater === "stay") {
+            alert('You made the good choice and stay in the shelter but you do become curious of what it was.')
         }
         else if (choice2 === "food") // shelter > food
         {
             alert("You look around and find a bag. The bag has some food for you to eat. You spend the rest of the day getting food. You also find a container.");
             alert("night time")
+            var nightShelterFood = prompt("The clouds roll over and starts to rain. You get your container and fill it up. You then hear a noise in the bushes. Do you check it out or stay put? (check/stay)")
+            if (nightShelterFood === 'check')
+                alert('You you go and check it out. What ever it was big and fast. You get scared and go back to your shelter.')
+        }
     }
         else if (start === "water") // water > ?
             { //this is the 2nd chioic the player can make (2) ---◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊◊---
@@ -38,6 +48,12 @@
                 var nightWaterShelter = prompt  ("It started to rain now and since you already have water you can't get any more in the container. You built a shelter so you don't get cold and wet" +
                     " You hear a noise do you check it out or do you" +
                     "stay put. (check/stay)");
+                if (nightWaterShelter === 'check') {
+                    alert('You you go and check it out. What ever it was big and fast. You get scared and go back to your shelter.');
+                }
+                else if (nightWaterShelter === 'stay') {
+                    alert('You made the right choice and you stay but you do become curious');
+                }
             }
             }// end of the 2nd choice (maybe) i might need to make this one and the others go on because of the choice they make. or find a way to get them to link to each other.
      // this is the end of the if start and var start.
@@ -50,7 +66,15 @@
             alert("night time");
              var nightFoodShelter = prompt ("The clouds roll over your shelter and it starts to rain. You get your container and it fills up. You " +
                  "didn't need a filter because it is rain water. You hear a noise do you check it out or do you stay put? (check/stay)");
-        }
+             if (nightFoodShelter=== 'check') {
+                 alert('You you go and check it out. What ever it was big and fast. You get scared and go back to your shelter.')
+             }
+                 else if (nightFoodShelter === 'stay') {
+                     alert('You made the right choice and stayed')
+                 }
+
+             }
+
         else if (choice4 === "water")// food > water
         {
             alert("You have a container for the water so now you look for a filter. You find a filter in a bag that just washed up. The gods must be watching you.");
@@ -77,7 +101,7 @@
             console.log("You try to fight the bear off with the stick but you lose. GAME OVER.");
             break;
         case 'fists':
-            console.log("You tryed to fight the bear with your hands but its claws worked better. GAME OVER");
+            console.log("You tried to fight the bear with your hands but its claws worked better. GAME OVER");
             break;
         case 'run':
             console.log("You try to outrun the bear but the bear is part of a evil experiment gone wrong causeing it to run as fast as a cheeta, the bear catches up. GAME OVER.");
@@ -88,31 +112,3 @@
         default:
             console.log("You sit and wonder how to beat the bear but you though for too long the bear eats you. YOU LOSE! GAME OVER!");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
