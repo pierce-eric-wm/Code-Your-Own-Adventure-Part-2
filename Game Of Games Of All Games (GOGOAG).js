@@ -1,5 +1,5 @@
 
-    alert ("Press (OK) when you are ready to play the game. (not a finished game but i needed to turn it in)");
+    alert ("Press (OK) when you are ready to play the game.");
     alert ("(Story) It felt like a normal day for you but something was a little off. You left your wife and kids for an important buissness trip in England." +
         "You got on the plane and after 10 min. of waiting the plane finaly took off. 1 and a half hours in the plane got hit by lightning and the plane is coming down fast." +
         "in a blink of an eye the plane hit the water knocking you out cold... You awoke after 5 hours. You are on a island some where in the altntic ocean. There is no body in sight " +
@@ -87,7 +87,7 @@
                     "ran back to the hut because you have no weapon to defend yourself.")
             }
                 else if (nightFoodWater === 'stay') {
-                alert ('You made the best decision to stay and wait out the night. You were a little curious but you decided to stay. Do you want to try and change the out come?')
+                alert ('You made the best decision to stay and wait out the night. You were a little curious but you decided to stay.")
 
             }
         }
